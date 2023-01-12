@@ -39,7 +39,7 @@
 			"defaultValue": [
 				"Red",
 				"Purple",
-				"011220231141"
+				"011220231231"
 			],
 			"metadata": {
 				"description": "Specifies the values of the key-value resources. It's optional"
