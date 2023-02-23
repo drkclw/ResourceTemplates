@@ -37,9 +37,9 @@
 		"keyValueValues": {
 			"type": "array",
 			"defaultValue": [
-				"Orange",
+				"Black",
 				"Purple",
-				"022220232257"
+				"022320231847"
 			],
 			"metadata": {
 				"description": "Specifies the values of the key-value resources. It's optional"
