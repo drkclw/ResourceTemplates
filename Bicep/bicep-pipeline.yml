@@ -9,7 +9,7 @@ variables:
   azureServiceConnection: '$(azureServiceConnection)'
   resourceGroupName: '$(resourceGroupName)'
   location: '$(location)'
-  templateFile: './main.bicep'
+  templateFile: './AppConfiguration.bicep'
 pool:
   vmImage: $(vmImageName)
 
