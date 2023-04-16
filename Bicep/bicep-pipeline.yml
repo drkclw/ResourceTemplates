@@ -20,6 +20,5 @@ steps:
     location: '$(location)'
     templateLocation: 'Linked artifact'
     csmFile: '$(templateFile)'
-    overrideParameters: '-storageAccountType Standard_LRS'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
