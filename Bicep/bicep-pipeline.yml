@@ -6,7 +6,7 @@ name: Deploy Bicep files
 variables:
   vmImageName: 'ubuntu-latest'
 
-  templateFile: './AppConfiguration/AppConfiguration.bicep'
+  templateFile: '/AppConfiguration/AppConfiguration.bicep'
 pool:
   vmImage: $(vmImageName)
 
