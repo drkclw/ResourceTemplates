@@ -1,5 +1,5 @@
 
-param configStoreName string
+param configStoreName string = 'BicepConfig'
 param location string = resourceGroup().location
 
 param keyValueNames array = [
