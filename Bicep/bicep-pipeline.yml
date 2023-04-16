@@ -6,9 +6,6 @@ name: Deploy Bicep files
 variables:
   vmImageName: 'ubuntu-latest'
 
-  azureServiceConnection: '$(azureServiceConnection)'
-  resourceGroupName: '$(resourceGroupName)'
-  location: '$(location)'
   templateFile: './AppConfiguration.bicep'
 pool:
   vmImage: $(vmImageName)
@@ -17,7 +14,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'PipelineConnection'
+    azureResourceManagerConnection: '$(azureServiceConnection)'
     action: 'Create Or Update Resource Group'
     resourceGroupName: '$(resourceGroupName)'
     location: '$(location)'
