@@ -20,5 +20,5 @@ jobs:
         subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
         resourceGroupName: ${{ secrets.AZURE_RG }}
         template: ./Bicep/AppConfiguration/AppConfiguration.bicep
-        parameters: 'configStoreName=BicepConfig'
+        parameters: 'configStoreName=BicepDemoConfig'
         failOnStdErr: false
