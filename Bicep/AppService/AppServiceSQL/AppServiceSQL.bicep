@@ -13,7 +13,7 @@
   'P3'
   'P4'
 ])
-param skuName string = 'F1'
+param skuName string = 'D1'
 
 @description('Describes plan\'s instance count')
 @minValue(1)
